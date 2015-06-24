@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Solarertrag Lessingstrasse 26</title>
+		<h2>Solarertrag Lessingstrasse 26</h2><br>
+//		<meta charset="utf-8"> 
+//		<title>Beispiel zur Verwendung des <code>mark</code>-Elementes</title> 
+//		<style> 
+//                #testfeld { 
+//                width: 30em; 
+//               	height: 20em; 
+//               	padding: 1em; 
+//               	border: 1px solid; 
+//    		background-color: #8FBCFF; 
+//		}
+//		 #testfeld div { 
+//			 height: 20em; 
+//			 overflow: hidden; 
+//		 } 
+//		 button { 
+//			 margin: 1em 0; 
+//		 } 
+//		 button:not(:hover) + #testfeld mark { 
+//			 background-color: transparent; 
+//				 color: inherit; 
+//			 } 
+//		</style>
+	</head>
+	<body>
+		<a href="Lessing26_18_03.png">18.03. wolkenlos</a><br>
+		<a href="Lessing26_20_03.png">20.03. Sonnenfinsternis</a><br>
+		<a href="Lessing26_27_03.png">27.03. wechselnd bewoelkt, 26.03. bedeckt</a><br>
+		<a href="Lessing26_31_03.png">31.03. 2 Tage stuermisch mit Sonne </a><br>
+//		<h1>Ein Konzentrationstest</h1> 
+//		<p>Markieren Sie mit gedrueckter <kbd>Strg</kbd>-Taste alle Buchstaben <strong>b</strong>!</p> 
+//		<button>Führen Sie die Maus ueber diesen Button um die Loesung anzuzeigen.</button> 
+//	<div id="testfeld"><div> d d p d p p d p p p d d p d d d <mark>b</mark> p p d d 
+//			<!-- … --> 
+//		</div></div>
+	</body>
+</html>  
