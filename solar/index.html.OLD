@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML5 File API introduction - example</title>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+
+		<script>
+// handle the file selected
+function handleSelectedFiles(fileInput) {
+	// lets check if files interface is supported
+	if (fileInput.files) {
+		jQuery.each(fileInput.files,function(index,file){
+			jQuery("#selected-file-info").append('name: ' + file.name + ', ')
+				.append('size: ' + file.size + ' bytes, ')
+				.append('type: ' + file.type + ', ')
+				.append('last modified on: ' + file.lastModifiedDate+ '<br>');
+		})
+	} else {
+		// files interface not supported by browser
+		jQuery("#selected-file-info").html('Files interface not supported');
+	}
+}
+		</script>
+	</head>
+	<body>
+		<a href="../solar/Lessing26_18_03.png" title="18.03. Referenztag wolkenlos">18.03. wolkenlos</a>
+		<div class="container">
+			<img src="/images/logo.png"><br><br>
+			<div class="hero-unit">
+				<h2 class="blue">HTML5 File API example 1</h2><br>
+			</div>
+			<br>
+			<input type="file" multiple onchange="handleSelectedFiles(this)" id="selectedfiles"/>
+			<div id="selected-file-info" ></div>
+
+		</div>
+		<!-- Begin `Daily' Graph (5 Minute interval) -->
+		<div class="graph">
+			<p>Who is the captain of Real Madrid?</p>
+			<select>
+				<option value="Cristiano Ronaldo">Cristiano Ronaldo</option>
+				<option value="Kaka">Kaka</option>
+				<option value="Marcelo">Marcelo</option>
+				<option value="Iker Casillas">Iker Casillas</option>
+			</select> 
+			<!--h2>Solarertrag 18.03 wolkenlos</h2>-->
+			<!--img src="Lessing26_18_03.png" title="Solar" alt="18_03" /-->
+
+		</div>
+		<!-- End `Daily' Graph (5 Minute interval) -->
+
+	</body>
+</html>
